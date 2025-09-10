@@ -14,18 +14,19 @@ export default function HomePage() {
       <main>
         {/* Hero Section */}
         <section
-          className="relative w-full bg-gradient-to-br from-blue-600 to-cyan-500 text-white"
+          className="relative w-full text-white"
+          style={{ backgroundColor: "#2563eb" }}
           aria-labelledby="hero-title"
         >
           <div className="mx-auto max-w-6xl px-4 py-20 md:py-28">
             <h1
               id="hero-title"
-              className="text-pretty text-4xl md:text-6xl font-extrabold tracking-tight bg-gradient-to-r from-white to-white/80 bg-clip-text text-transparent drop-shadow"
+              className="text-pretty text-4xl md:text-6xl font-extrabold tracking-tight text-white drop-shadow"
             >
               Welcome to the Mini AdTech Platform
             </h1>
-            <p className="mt-4 max-w-2xl text-base md:text-lg leading-relaxed text-white/90">
-              A simplified ad-serving and analytics system inspired by InMobi’s technology.
+            <p className="mt-4 max-w-2xl text-base md:text-lg leading-relaxed text-white">
+              A simplified ad-serving and analytics system inspired by InMobi's technology.
             </p>
 
             <div className="mt-8 flex flex-wrap items-center gap-3">
@@ -35,7 +36,7 @@ export default function HomePage() {
               <Button
                 asChild
                 variant="outline"
-                className="uppercase font-semibold bg-white/10 text-white border-white/40 hover:bg-white/20"
+                className="uppercase font-semibold bg-white text-blue-600 border-white hover:bg-white/90"
               >
                 <Link href="/analytics">View Analytics</Link>
               </Button>
@@ -70,7 +71,7 @@ export default function HomePage() {
             <h2 className="text-2xl md:text-3xl font-semibold tracking-tight text-pretty">About This Project</h2>
             <p className="mt-4 max-w-3xl text-base leading-relaxed text-gray-900/80">
               This project demonstrates a simplified version of an ad-tech system. It includes a Java backend for
-              ad-serving and a Next.js frontend for visualization. Inspired by InMobi’s large-scale ad-serving platform.
+              ad-serving and a Next.js frontend for visualization. Inspired by InMobi's large-scale ad-serving platform.
             </p>
           </div>
         </section>

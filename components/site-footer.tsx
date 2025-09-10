@@ -22,6 +22,11 @@ export function SiteFooter() {
                   Analytics
                 </Link>
               </li>
+              <li>
+                <Link href="/pricing" className="hover:text-gray-900">
+                  Pricing
+                </Link>
+              </li>
             </ul>
           </nav>
           <p className="text-xs text-gray-900/70">© 2025 Mini AdTech Platform. Built with Java & Next.js.</p>

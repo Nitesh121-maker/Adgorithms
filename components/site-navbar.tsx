@@ -35,6 +35,9 @@ export function SiteNavbar() {
           <Link href="/analytics" className={linkClasses("/analytics")}>
             Analytics
           </Link>
+          <Link href="/pricing" className={linkClasses("/pricing")}>
+            Pricing
+          </Link>
 
           {/* Auth controls */}
           {user ? (

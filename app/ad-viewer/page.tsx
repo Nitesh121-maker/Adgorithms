@@ -12,10 +12,10 @@ export default function AdViewerPage() {
         <div className="container mx-auto max-w-6xl px-4">
           <div className="flex h-16 items-center justify-between gap-4">
             <Link href="/" className="font-heading text-lg font-bold tracking-tight text-primary">
-              Mini AdTech Platform
+              AdTech
               <span className="sr-only">Home</span>
             </Link>
-            {/* <div className="flex-1 max-w-xl">
+            <div className="flex-1 max-w-xl">
               <form
                 role="search"
                 className="flex items-center gap-2"
@@ -28,22 +28,16 @@ export default function AdViewerPage() {
                   Search
                 </Button>
               </form>
-            </div> */}
+            </div>
             <nav className="hidden sm:flex items-center gap-4">
-              <Link href="/" className="text-sm text-muted-foreground hover:text-foreground">
-                Home
-              </Link>
-              <Link href="/about" className="text-sm text-muted-foreground hover:text-foreground">
-                About
-              </Link>
               <Link href="/analytics" className="text-sm text-muted-foreground hover:text-foreground">
                 Analytics
               </Link>
-              {/* <Link href="/pricing" className="text-sm text-muted-foreground hover:text-foreground">
+              <Link href="/pricing" className="text-sm text-muted-foreground hover:text-foreground">
                 Pricing
-              </Link> */}
-              <Link href="/ad-viewer" className="text-sm text-muted-foreground hover:text-foreground">
-                Ad Viewer
+              </Link>
+              <Link href="/about" className="text-sm text-muted-foreground hover:text-foreground">
+                About
               </Link>
             </nav>
           </div>
